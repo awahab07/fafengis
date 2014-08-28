@@ -3,3 +3,6 @@
 **/*.dump
 *.dump
 **/settings.py
+*.pyc
+**/*.pyc
+**/*/*.pyc
