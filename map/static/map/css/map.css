@@ -1,0 +1,89 @@
+/* CSS Document */
+#map hr {
+    border: 1px solid;
+    position: relative;
+    width: auto;
+	top: 0;
+	left: 0;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"]{
+	text-shadow: none;
+}
+button, input, select, textarea {
+	box-shadow: none;
+}
+
+.olLayerGooglePoweredBy{
+	display:none !important;
+}
+
+/*popup marker styles*/
+#incidents-div {
+	position: absolute;
+}
+.markerContent table td {
+	padding: 0px;
+}
+.markerContent td.markerLabel {
+	font-size: 12px;
+	font-style: italic;
+	min-width: 100px;
+}
+
+div.markerContent {
+    max-width: 300px;
+}
+
+/*.active, a:link {
+    padding: none !important;
+}*/
+.feature-popup-table{
+	background:#EEE;
+	margin:5px;
+}
+
+.feature-popup-table td{padding: 5px; font-size:12px;}
+.feature-popup-table th{font-size:10px;font-weight:bold;}
+.feature-popup-heading{margin: 2px;padding:2px;font-weight:13px;}
+.feature-popup-label{}
+.feature-popup-value{}
+.feature-popup-violation{color: red;}
+.feature-popup-date{color:maroon;}
+.feature-popup-details{font-style:italic;line-height:20px;word-spacing:3px;margin-2px;padding:1px;}
+
+.copy-right-div{text-align:right;width:95%;padding:5px;}
+.copy-right-span{font-weight:bold; font-size:}
+/*td.x-form-trigger-input-cell input.x-form-field{margin-left:-200px;}*/
+
+.election-history-popup div.candidates-list{
+	max-height: 400px !important;
+	max-width: 420px !important;
+	margin-right: 20px;
+	overflow:auto;	
+}
+
+.election-history-popup .election-heading{}
+.election-history-popup .history-heading{
+	font-size:14px;
+	text-align:center;
+}
+.election-history-popup .ext-hide-first-row .x-grid3-row-first{
+	display: none;
+}
+
+.party-ext-button-container{
+	margin: 5px 0;
+}
+
+.show-labels-control-div{
+	font-weight: bold;
+}
+
+#legend-panel-title{
+	font-weight:bold;
+	color:#006;
+	font-size:13px;
+	text-align: center;
+}
+
+span[id^=cf_map][id$=outerCt]{display: none !important;}

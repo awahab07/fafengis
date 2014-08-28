@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="BufferView.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365550000000" Dst="0" />
+<file name="CenterLayout.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365550000000" Dst="0" />
+<file name="CheckColumn.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365550000000" Dst="0" />
+<file name="ColumnHeaderGroup.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365550000000" Dst="0" />
+<file name="ColumnNodeUI.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365550000000" Dst="0" />
+<file name="DataView-more.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365560000000" Dst="0" />
+<file name="DataViewTransition.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365560000000" Dst="0" />
+<file name="FieldLabeler.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365560000000" Dst="0" />
+<file name="FieldReplicator.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365560000000" Dst="0" />
+<file name="Focus.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365560000000" Dst="0" />
+<file name="GMapPanel.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365560000000" Dst="0" />
+<file name="GroupSummary.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365560000000" Dst="0" />
+<file name="GroupTab.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365560000000" Dst="0" />
+<file name="GroupTabPanel.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365560000000" Dst="0" />
+<file name="ItemSelector.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="LockingGridView.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="MultiSelect.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="PagingMemoryProxy.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="PanelResizer.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="Portal.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="PortalColumn.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="Portlet.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="ProgressBarPager.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="Reorderer.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="RowEditor.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="RowExpander.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="RowLayout.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="SearchField.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="SelectBox.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="SlidingPager.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="Spinner.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="SpinnerField.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="Spotlight.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="TabCloseMenu.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="TableGrid.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="TabScrollerMenu.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="ToolbarDroppable.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="ToolbarReorderer.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="ux-all-debug.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="ux-all.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+<file name="XmlTreeLoader.js" server="192.168.111.17//var/www/election/" local="130094572840000000" remote="130115365570000000" Dst="0" />
+</dwsync>

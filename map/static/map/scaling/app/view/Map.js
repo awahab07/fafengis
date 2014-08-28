@@ -1,0 +1,95 @@
+/**
+ * The GeoExt.panel.Map used in the application.  Useful to define map options
+ * and stuff.
+ * @extends GeoExt.panel.Map
+ */
+Ext.define('Scaling.view.Map', {
+    // Ext.panel.Panel-specific options:
+    extend: 'GeoExt.panel.Map',
+    alias : 'widget.scaling_mappanel',
+    requires: [
+        'Ext.window.MessageBox',
+        'GeoExt.Action'
+    ],
+    border: 'false',
+    layout: 'fit',
+    // GeoExt.panel.Map-specific options :
+    center: '31.222197,71.40747',
+    zoom: 7,
+
+    initComponent: function() {
+        var me = this,
+            items = [],
+            ctrl;
+
+        var map = new OpenLayers.Map();
+
+        // ZoomToMaxExtent control, a "button" control
+        items.push(Ext.create('Ext.button.Button', Ext.create('GeoExt.Action', {
+            control: new OpenLayers.Control.ZoomToMaxExtent(),
+            map: map,
+            text: "max extent",
+            tooltip: "zoom to max extent"
+        })));
+
+        items.push("-");
+
+        // Navigation control
+        items.push(Ext.create('Ext.button.Button',Ext.create('GeoExt.Action', {
+            text: "nav",
+            control: new OpenLayers.Control.Navigation(),
+            map: map,
+            // button options
+            toggleGroup: "draw",
+            allowDepress: false,
+            pressed: true,
+            tooltip: "navigate",
+            // check item options
+            group: "draw",
+            checked: true
+        })));
+
+        items.push("-");
+
+        // Navigation history - two "button" controls
+        ctrl = new OpenLayers.Control.NavigationHistory();
+        map.addControl(ctrl);
+        
+        items.push(Ext.create('Ext.button.Button', Ext.create('GeoExt.Action', {
+            text: "previous",
+            control: ctrl.previous,
+            disabled: true,
+            tooltip: "previous in history"
+        })));
+        
+        items.push(Ext.create('Ext.button.Button', Ext.create('GeoExt.Action', {
+            text: "next",
+            control: ctrl.next,
+            disabled: true,
+            tooltip: "next in history"
+        })));
+        items.push("->");
+
+        // Help action
+        /*items.push(
+            Ext.create('Ext.button.Button', Ext.create('CF.view.help.Action', {
+                windowContentEl: "help"
+            }))
+        );*/
+        
+        Ext.apply(me, {
+            map: map,
+            dockedItems: [{
+                xtype: 'toolbar',
+                dock: 'top',
+                items: items,
+                style: {
+                    border: 0,
+                    padding: 0
+                }
+            }]
+        });
+                
+        me.callParent(arguments);
+    }
+});

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AbstractComponent.js" server="Z:/ep2013/" local="130128149000000000" remote="130128149000000000" Dst="0" />
+<file name="AbstractManager.js" server="Z:/ep2013/" local="130128148990000000" remote="130128148990000000" Dst="0" />
+<file name="AbstractPlugin.js" server="Z:/ep2013/" local="130128148990000000" remote="130128148990000000" Dst="0" />
+<file name="Action.js" server="Z:/ep2013/" local="130128148980000000" remote="130128148980000000" Dst="0" />
+<file name="Ajax.js" server="Z:/ep2013/" local="130128148980000000" remote="130128148980000000" Dst="0" />
+<file name="Component.js" server="Z:/ep2013/" local="130128148980000000" remote="130128148980000000" Dst="0" />
+<file name="ComponentLoader.js" server="Z:/ep2013/" local="130128148980000000" remote="130128148980000000" Dst="0" />
+<file name="ComponentManager.js" server="Z:/ep2013/" local="130128148960000000" remote="130128148960000000" Dst="0" />
+<file name="ComponentQuery.js" server="Z:/ep2013/" local="130128148980000000" remote="130128148980000000" Dst="0" />
+<file name="Editor.js" server="Z:/ep2013/" local="130128148980000000" remote="130128148980000000" Dst="0" />
+<file name="ElementLoader.js" server="Z:/ep2013/" local="130128148960000000" remote="130128148960000000" Dst="0" />
+<file name="FocusManager.js" server="Z:/ep2013/" local="130128148960000000" remote="130128148960000000" Dst="0" />
+<file name="Img.js" server="Z:/ep2013/" local="130128148980000000" remote="130128148980000000" Dst="0" />
+<file name="Layer.js" server="Z:/ep2013/" local="130128148970000000" remote="130128148970000000" Dst="0" />
+<file name="LoadMask.js" server="Z:/ep2013/" local="130128148960000000" remote="130128148960000000" Dst="0" />
+<file name="ModelManager.js" server="Z:/ep2013/" local="130128148950000000" remote="130128148950000000" Dst="0" />
+<file name="PluginManager.js" server="Z:/ep2013/" local="130128148960000000" remote="130128148960000000" Dst="0" />
+<file name="ProgressBar.js" server="Z:/ep2013/" local="130128148950000000" remote="130128148950000000" Dst="0" />
+<file name="Shadow.js" server="Z:/ep2013/" local="130128148950000000" remote="130128148950000000" Dst="0" />
+<file name="ShadowPool.js" server="Z:/ep2013/" local="130128148950000000" remote="130128148950000000" Dst="0" />
+<file name="tail.js" server="Z:/ep2013/" local="130128148950000000" remote="130128148950000000" Dst="0" />
+<file name="Template.js" server="Z:/ep2013/" local="130128148940000000" remote="130128148940000000" Dst="0" />
+<file name="XTemplate.js" server="Z:/ep2013/" local="130128148940000000" remote="130128148940000000" Dst="0" />
+<file name="XTemplateCompiler.js" server="Z:/ep2013/" local="130128148950000000" remote="130128148950000000" Dst="0" />
+<file name="XTemplateParser.js" server="Z:/ep2013/" local="130128148950000000" remote="130128148950000000" Dst="0" />
+<file name="ZIndexManager.js" server="Z:/ep2013/" local="130128148940000000" remote="130128148940000000" Dst="0" />
+</dwsync>

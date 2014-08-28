@@ -1,0 +1,45 @@
+<html>
+    <head>
+	<title>FAFEN GIS</title>
+        
+        {% load staticfiles %}
+        
+        <style>
+            .content-container{
+                margin-left: 10%;
+                margin-top: 10%;
+            }
+            
+            .map-showcase-instance{
+                max-width: 320px;
+                border: 1px solid #ddd;
+                padding: 10px;
+            }
+            
+            .map-showcase-instance a{
+                font-style: normal;
+            }
+            
+            img.showcase-thumbnail{width:300px;height: 200px;}
+            
+        </style>
+    </head>
+        
+    <body>
+	<div class="content-container">
+            <div class="map-showcase-instance">
+                <a href="/map/district-constituencies-map">
+                    <h3 class="showcase-heading">District - Constituency Incidents</h3>
+                    <div class="showcase-body">
+                        <img class="showcase-thumbnail" src="{% static "map/images/district-constituencies-map-thumbnail.png" %}" />
+                        <p class="showcase-description">
+                            Map showing pre-election (General Election 2013) incidents. This map compares density of reported incidents accross constituencies of a particular district.
+                        </p>
+                    </div>                    
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
+
+

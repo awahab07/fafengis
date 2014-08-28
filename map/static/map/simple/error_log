@@ -1,0 +1,1 @@
+[17-Apr-2013 18:28:52 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/election/public_html/assets/map/simple/simple-dev.php on line 16
