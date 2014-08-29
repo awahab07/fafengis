@@ -13,6 +13,7 @@ class Command(BaseCommand):
     """
      This command will be used to import election day incidents (GE 2013) from electionpakistan.org/map/get_electionday_incidents
      and will store them in ElectionDayRawIncident
+     It may be required to Empty / Truncate election_day_raw_insidents table before running the script
     """
     args = '<csv_file ...>'
     help = 'Run command providing import url and optional log CSV file name'
@@ -67,10 +68,13 @@ class Command(BaseCommand):
                 self.stdout.write("\nLogging incidents in %s ..." % log_csv)
                 try:
                     with open(log_csv, 'wb') as f:
+                        f.write(u'\ufeff'.encode('utf8')) # BOM (optional...Excel needs it to open UTF-8 file properly)
                         csv_writer = csv.DictWriter(f, ["id", "date", "time", "comments", "category", "location", "lat", "lng", "constituency_id", "constituency", "district", "district_id", "province", "province_id", "time_stamp"])
 
                         csv_writer.writeheader();
-                        csv_writer.writerows(json_data)
+                        for record in json_data:
+                            csv_writer.writerow({ (k):(v.encode('utf8') if v is not None else v) for k,v in record.items() })
+
                 except IOError as e:
                     self.stderr.write("Logging Error: %s" % e.strerror)
                 self.stdout.write("Raw Incident Details Successfully logged in %s" % log_csv)
