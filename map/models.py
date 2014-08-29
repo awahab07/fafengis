@@ -100,6 +100,7 @@ class Violation(models.Model):
     category_id_int = models.IntegerField(default=0);
     #category = models.ForeignKey(ViolationCategory)
     comments = models.TextField()
+    location_approximate = models.BooleanField(default=False)  # field indicating whether location for the violation is prgrammaticaly inserted / approximated or taken from datasource / valid
     
     def __str__(self):
         return "Comments: %s, Location: %s, Constituency %s" % (self.comments, self.location.name, self.constituency.name)
